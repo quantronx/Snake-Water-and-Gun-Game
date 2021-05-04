@@ -1,12 +1,12 @@
 # Snake-Water-and-Gun-Game
 The concept of this game is same as stone , paper ,scissor game and the coding of this game is easy which is based on loop, if else ,elif concept of python. 
 import random
+
+
 list = [' Snake' ,' Water','Gun']
 choice = random.choice(list)
 print(' welcome you all in Snake,Water , Gun Game!')
 print(' you play this game only 10 times ')
-
-
 your_wins = 0
 computer_wins =0
 tie = 0
